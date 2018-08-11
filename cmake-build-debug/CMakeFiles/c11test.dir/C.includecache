@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luobo/CLionProjects/c11test/main.c
+stdio.h
+-
+limits.h
+-
+float.h
+-
+
+/home/luobo/CLionProjects/c11test/unionDemo.c
+stdio.h
+-
+string.h
+-
+

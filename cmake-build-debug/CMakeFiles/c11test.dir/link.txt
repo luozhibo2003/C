@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/c11test.dir/main.c.o CMakeFiles/c11test.dir/support.c.o CMakeFiles/c11test.dir/multyArrayDemo.c.o CMakeFiles/c11test.dir/pointDemo.c.o CMakeFiles/c11test.dir/strDemo.c.o CMakeFiles/c11test.dir/structDemo.c.o CMakeFiles/c11test.dir/unionDemo.c.o CMakeFiles/c11test.dir/bitDomainDemo.c.o  -o c11test 
