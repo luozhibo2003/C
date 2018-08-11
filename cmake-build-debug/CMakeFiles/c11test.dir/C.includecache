@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luobo/CLionProjects/c11test/main.c
-stdio.h
--
-limits.h
--
-float.h
--
-
-/home/luobo/CLionProjects/c11test/unionDemo.c
+/home/luobo/CLionProjects/c11test/bitDomainDemo.c
 stdio.h
 -
 string.h

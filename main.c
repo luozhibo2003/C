@@ -76,6 +76,10 @@ extern void unionTestDemo();
 extern void visitUnionDataTest();
 extern void visitUnionDataTest2();
 
+//位域
+extern void bitDomainDemoTest();
+extern void bitDomainDemoTest2();
+
 
 int main() {
     printf("Hello, World!\n");
@@ -212,6 +216,10 @@ int main() {
     unionTestDemo();
     visitUnionDataTest();
     visitUnionDataTest2();
+
+    //位域测试
+    bitDomainDemoTest();
+    bitDomainDemoTest2();
 
 
 
