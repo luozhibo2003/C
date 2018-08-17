@@ -3,6 +3,8 @@
 
 CMakeFiles/c11test.dir/bitDomainDemo.c.o: ../bitDomainDemo.c
 
+CMakeFiles/c11test.dir/inputOutPutDemo.c.o: ../inputOutPutDemo.c
+
 CMakeFiles/c11test.dir/main.c.o: ../main.c
 
 CMakeFiles/c11test.dir/multyArrayDemo.c.o: ../multyArrayDemo.c
@@ -14,6 +16,8 @@ CMakeFiles/c11test.dir/strDemo.c.o: ../strDemo.c
 CMakeFiles/c11test.dir/structDemo.c.o: ../structDemo.c
 
 CMakeFiles/c11test.dir/support.c.o: ../support.c
+
+CMakeFiles/c11test.dir/typedefDemo.c.o: ../typedefDemo.c
 
 CMakeFiles/c11test.dir/unionDemo.c.o: ../unionDemo.c
 

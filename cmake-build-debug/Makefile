@@ -150,6 +150,60 @@ bitDomainDemo.c.s:
 	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/bitDomainDemo.c.s
 .PHONY : bitDomainDemo.c.s
 
+fileDemo.o: fileDemo.c.o
+
+.PHONY : fileDemo.o
+
+# target to build an object file
+fileDemo.c.o:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/fileDemo.c.o
+.PHONY : fileDemo.c.o
+
+fileDemo.i: fileDemo.c.i
+
+.PHONY : fileDemo.i
+
+# target to preprocess a source file
+fileDemo.c.i:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/fileDemo.c.i
+.PHONY : fileDemo.c.i
+
+fileDemo.s: fileDemo.c.s
+
+.PHONY : fileDemo.s
+
+# target to generate assembly for a file
+fileDemo.c.s:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/fileDemo.c.s
+.PHONY : fileDemo.c.s
+
+inputOutPutDemo.o: inputOutPutDemo.c.o
+
+.PHONY : inputOutPutDemo.o
+
+# target to build an object file
+inputOutPutDemo.c.o:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/inputOutPutDemo.c.o
+.PHONY : inputOutPutDemo.c.o
+
+inputOutPutDemo.i: inputOutPutDemo.c.i
+
+.PHONY : inputOutPutDemo.i
+
+# target to preprocess a source file
+inputOutPutDemo.c.i:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/inputOutPutDemo.c.i
+.PHONY : inputOutPutDemo.c.i
+
+inputOutPutDemo.s: inputOutPutDemo.c.s
+
+.PHONY : inputOutPutDemo.s
+
+# target to generate assembly for a file
+inputOutPutDemo.c.s:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/inputOutPutDemo.c.s
+.PHONY : inputOutPutDemo.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -312,6 +366,33 @@ support.c.s:
 	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/support.c.s
 .PHONY : support.c.s
 
+typedefDemo.o: typedefDemo.c.o
+
+.PHONY : typedefDemo.o
+
+# target to build an object file
+typedefDemo.c.o:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/typedefDemo.c.o
+.PHONY : typedefDemo.c.o
+
+typedefDemo.i: typedefDemo.c.i
+
+.PHONY : typedefDemo.i
+
+# target to preprocess a source file
+typedefDemo.c.i:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/typedefDemo.c.i
+.PHONY : typedefDemo.c.i
+
+typedefDemo.s: typedefDemo.c.s
+
+.PHONY : typedefDemo.s
+
+# target to generate assembly for a file
+typedefDemo.c.s:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/typedefDemo.c.s
+.PHONY : typedefDemo.c.s
+
 unionDemo.o: unionDemo.c.o
 
 .PHONY : unionDemo.o
@@ -351,6 +432,12 @@ help:
 	@echo "... bitDomainDemo.o"
 	@echo "... bitDomainDemo.i"
 	@echo "... bitDomainDemo.s"
+	@echo "... fileDemo.o"
+	@echo "... fileDemo.i"
+	@echo "... fileDemo.s"
+	@echo "... inputOutPutDemo.o"
+	@echo "... inputOutPutDemo.i"
+	@echo "... inputOutPutDemo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -369,6 +456,9 @@ help:
 	@echo "... support.o"
 	@echo "... support.i"
 	@echo "... support.s"
+	@echo "... typedefDemo.o"
+	@echo "... typedefDemo.i"
+	@echo "... typedefDemo.s"
 	@echo "... unionDemo.o"
 	@echo "... unionDemo.i"
 	@echo "... unionDemo.s"

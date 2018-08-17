@@ -80,6 +80,9 @@ extern void visitUnionDataTest2();
 extern void bitDomainDemoTest();
 extern void bitDomainDemoTest2();
 
+//输入输出
+extern void getcharDemo();
+extern void getsDemo();
 
 int main() {
     printf("Hello, World!\n");
@@ -221,9 +224,9 @@ int main() {
     bitDomainDemoTest();
     bitDomainDemoTest2();
 
-
-
-
+    //输入输出
+    //getcharDemo();
+    getsDemo();
 
 
     return 0;

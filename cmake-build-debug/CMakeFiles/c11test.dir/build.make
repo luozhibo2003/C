@@ -161,6 +161,45 @@ CMakeFiles/c11test.dir/bitDomainDemo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c11test.dir/bitDomainDemo.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luobo/CLionProjects/c11test/bitDomainDemo.c -o CMakeFiles/c11test.dir/bitDomainDemo.c.s
 
+CMakeFiles/c11test.dir/typedefDemo.c.o: CMakeFiles/c11test.dir/flags.make
+CMakeFiles/c11test.dir/typedefDemo.c.o: ../typedefDemo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luobo/CLionProjects/c11test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/c11test.dir/typedefDemo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c11test.dir/typedefDemo.c.o   -c /home/luobo/CLionProjects/c11test/typedefDemo.c
+
+CMakeFiles/c11test.dir/typedefDemo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c11test.dir/typedefDemo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luobo/CLionProjects/c11test/typedefDemo.c > CMakeFiles/c11test.dir/typedefDemo.c.i
+
+CMakeFiles/c11test.dir/typedefDemo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c11test.dir/typedefDemo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luobo/CLionProjects/c11test/typedefDemo.c -o CMakeFiles/c11test.dir/typedefDemo.c.s
+
+CMakeFiles/c11test.dir/inputOutPutDemo.c.o: CMakeFiles/c11test.dir/flags.make
+CMakeFiles/c11test.dir/inputOutPutDemo.c.o: ../inputOutPutDemo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luobo/CLionProjects/c11test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/c11test.dir/inputOutPutDemo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c11test.dir/inputOutPutDemo.c.o   -c /home/luobo/CLionProjects/c11test/inputOutPutDemo.c
+
+CMakeFiles/c11test.dir/inputOutPutDemo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c11test.dir/inputOutPutDemo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luobo/CLionProjects/c11test/inputOutPutDemo.c > CMakeFiles/c11test.dir/inputOutPutDemo.c.i
+
+CMakeFiles/c11test.dir/inputOutPutDemo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c11test.dir/inputOutPutDemo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luobo/CLionProjects/c11test/inputOutPutDemo.c -o CMakeFiles/c11test.dir/inputOutPutDemo.c.s
+
+CMakeFiles/c11test.dir/fileDemo.c.o: CMakeFiles/c11test.dir/flags.make
+CMakeFiles/c11test.dir/fileDemo.c.o: ../fileDemo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luobo/CLionProjects/c11test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/c11test.dir/fileDemo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c11test.dir/fileDemo.c.o   -c /home/luobo/CLionProjects/c11test/fileDemo.c
+
+CMakeFiles/c11test.dir/fileDemo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c11test.dir/fileDemo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luobo/CLionProjects/c11test/fileDemo.c > CMakeFiles/c11test.dir/fileDemo.c.i
+
+CMakeFiles/c11test.dir/fileDemo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c11test.dir/fileDemo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luobo/CLionProjects/c11test/fileDemo.c -o CMakeFiles/c11test.dir/fileDemo.c.s
+
 # Object files for target c11test
 c11test_OBJECTS = \
 "CMakeFiles/c11test.dir/main.c.o" \
@@ -170,7 +209,10 @@ c11test_OBJECTS = \
 "CMakeFiles/c11test.dir/strDemo.c.o" \
 "CMakeFiles/c11test.dir/structDemo.c.o" \
 "CMakeFiles/c11test.dir/unionDemo.c.o" \
-"CMakeFiles/c11test.dir/bitDomainDemo.c.o"
+"CMakeFiles/c11test.dir/bitDomainDemo.c.o" \
+"CMakeFiles/c11test.dir/typedefDemo.c.o" \
+"CMakeFiles/c11test.dir/inputOutPutDemo.c.o" \
+"CMakeFiles/c11test.dir/fileDemo.c.o"
 
 # External object files for target c11test
 c11test_EXTERNAL_OBJECTS =
@@ -183,9 +225,12 @@ c11test: CMakeFiles/c11test.dir/strDemo.c.o
 c11test: CMakeFiles/c11test.dir/structDemo.c.o
 c11test: CMakeFiles/c11test.dir/unionDemo.c.o
 c11test: CMakeFiles/c11test.dir/bitDomainDemo.c.o
+c11test: CMakeFiles/c11test.dir/typedefDemo.c.o
+c11test: CMakeFiles/c11test.dir/inputOutPutDemo.c.o
+c11test: CMakeFiles/c11test.dir/fileDemo.c.o
 c11test: CMakeFiles/c11test.dir/build.make
 c11test: CMakeFiles/c11test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luobo/CLionProjects/c11test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable c11test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luobo/CLionProjects/c11test/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable c11test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c11test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

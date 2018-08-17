@@ -3,6 +3,8 @@
 
 CMakeFiles/c11test.dir/bitDomainDemo.c.o
  /home/luobo/CLionProjects/c11test/bitDomainDemo.c
+CMakeFiles/c11test.dir/inputOutPutDemo.c.o
+ /home/luobo/CLionProjects/c11test/inputOutPutDemo.c
 CMakeFiles/c11test.dir/main.c.o
  /home/luobo/CLionProjects/c11test/main.c
 CMakeFiles/c11test.dir/multyArrayDemo.c.o
@@ -15,5 +17,7 @@ CMakeFiles/c11test.dir/structDemo.c.o
  /home/luobo/CLionProjects/c11test/structDemo.c
 CMakeFiles/c11test.dir/support.c.o
  /home/luobo/CLionProjects/c11test/support.c
+CMakeFiles/c11test.dir/typedefDemo.c.o
+ /home/luobo/CLionProjects/c11test/typedefDemo.c
 CMakeFiles/c11test.dir/unionDemo.c.o
  /home/luobo/CLionProjects/c11test/unionDemo.c

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/luobo/CLionProjects/c11test/bitDomainDemo.c
+/home/luobo/CLionProjects/c11test/inputOutPutDemo.c
 stdio.h
 -
-string.h
+strings.h
 -
 

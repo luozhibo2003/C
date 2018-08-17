@@ -81,6 +81,12 @@
 		<Unit filename="/home/luobo/CLionProjects/c11test/bitDomainDemo.c">
 			<Option target="c11test"/>
 		</Unit>
+		<Unit filename="/home/luobo/CLionProjects/c11test/fileDemo.c">
+			<Option target="c11test"/>
+		</Unit>
+		<Unit filename="/home/luobo/CLionProjects/c11test/inputOutPutDemo.c">
+			<Option target="c11test"/>
+		</Unit>
 		<Unit filename="/home/luobo/CLionProjects/c11test/main.c">
 			<Option target="c11test"/>
 		</Unit>
@@ -97,6 +103,9 @@
 			<Option target="c11test"/>
 		</Unit>
 		<Unit filename="/home/luobo/CLionProjects/c11test/support.c">
+			<Option target="c11test"/>
+		</Unit>
+		<Unit filename="/home/luobo/CLionProjects/c11test/typedefDemo.c">
 			<Option target="c11test"/>
 		</Unit>
 		<Unit filename="/home/luobo/CLionProjects/c11test/unionDemo.c">

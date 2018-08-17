@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/c11test.dir/structDemo.c.o"
   "CMakeFiles/c11test.dir/unionDemo.c.o"
   "CMakeFiles/c11test.dir/bitDomainDemo.c.o"
+  "CMakeFiles/c11test.dir/typedefDemo.c.o"
+  "CMakeFiles/c11test.dir/inputOutPutDemo.c.o"
+  "CMakeFiles/c11test.dir/fileDemo.c.o"
   "c11test.pdb"
   "c11test"
 )
