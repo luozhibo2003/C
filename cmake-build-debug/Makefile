@@ -285,6 +285,33 @@ pointDemo.c.s:
 	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/pointDemo.c.s
 .PHONY : pointDemo.c.s
 
+preprocessorDemo.o: preprocessorDemo.c.o
+
+.PHONY : preprocessorDemo.o
+
+# target to build an object file
+preprocessorDemo.c.o:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/preprocessorDemo.c.o
+.PHONY : preprocessorDemo.c.o
+
+preprocessorDemo.i: preprocessorDemo.c.i
+
+.PHONY : preprocessorDemo.i
+
+# target to preprocess a source file
+preprocessorDemo.c.i:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/preprocessorDemo.c.i
+.PHONY : preprocessorDemo.c.i
+
+preprocessorDemo.s: preprocessorDemo.c.s
+
+.PHONY : preprocessorDemo.s
+
+# target to generate assembly for a file
+preprocessorDemo.c.s:
+	$(MAKE) -f CMakeFiles/c11test.dir/build.make CMakeFiles/c11test.dir/preprocessorDemo.c.s
+.PHONY : preprocessorDemo.c.s
+
 strDemo.o: strDemo.c.o
 
 .PHONY : strDemo.o
@@ -447,6 +474,9 @@ help:
 	@echo "... pointDemo.o"
 	@echo "... pointDemo.i"
 	@echo "... pointDemo.s"
+	@echo "... preprocessorDemo.o"
+	@echo "... preprocessorDemo.i"
+	@echo "... preprocessorDemo.s"
 	@echo "... strDemo.o"
 	@echo "... strDemo.i"
 	@echo "... strDemo.s"

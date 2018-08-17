@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/c11test.dir/typedefDemo.c.o"
   "CMakeFiles/c11test.dir/inputOutPutDemo.c.o"
   "CMakeFiles/c11test.dir/fileDemo.c.o"
+  "CMakeFiles/c11test.dir/preprocessorDemo.c.o"
   "c11test.pdb"
   "c11test"
 )

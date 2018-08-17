@@ -84,6 +84,15 @@ extern void bitDomainDemoTest2();
 extern void getcharDemo();
 extern void getsDemo();
 
+//文件操作
+extern void fileWriteDemo1();
+extern void fileReadDemo();
+
+//预处理器
+extern void macrosPredefinedDemo();
+extern void operPrecessorDemo();
+
+
 int main() {
     printf("Hello, World!\n");
     sizeofdemo();
@@ -226,7 +235,15 @@ int main() {
 
     //输入输出
     //getcharDemo();
-    getsDemo();
+    //getsDemo();
+
+    //文件操作
+    fileWriteDemo1();
+    fileReadDemo();
+
+    //预处理器
+    macrosPredefinedDemo();
+    operPrecessorDemo();
 
 
     return 0;
